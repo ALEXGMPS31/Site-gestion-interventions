@@ -1,0 +1,134 @@
+html, body {
+	height : 90%;
+	font-family: verdana; 
+	background-color: #D5E2F2;
+	width : 100%;
+}
+
+
+#corps  {  
+	height : relative;
+	width: 90%;
+	max-width: 1090px;
+	margin: auto;
+	text-align: center;
+}
+
+
+/**/
+/* Styles de l'en-tête */
+header {
+	height: 100px;
+	background-color : #763229;
+	margin : auto; 
+	color : White;
+	text-align : center;	
+	letter-spacing : 0.5em;
+	padding-top : 2px;
+	font-weight : x-bold;
+	font-family : "Trebuchet MS";
+}
+
+header img.right {
+	padding-top :12px;
+	float : right;
+}
+
+header img.left {
+	padding-top :10px;
+	padding-left : 10px;
+	float : left;
+	max-width: 80px;
+	height: auto;
+}
+
+
+/**/
+/* Styles du menu de navigation */
+nav {
+	border-top : 2px solid White;
+	background-color : #763229;
+}
+
+nav ul { 
+	height : 40px;
+	list-style-type : none; 
+	margin : 0;
+	padding : 0;
+}
+ 
+nav ul li {
+	padding : 0 0.5em;  
+	line-height : 30px;
+	width : 100px;
+}
+
+nav ul li.bouton_gauche {
+	float : left;
+	border-right : 1px dashed white;
+}
+ 
+nav ul li.bouton_droite {
+	float : right;
+	border-left : 1px dashed white;
+}
+ 
+nav ul a {
+	color : white;
+	text-decoration : none;
+	font-size : small;
+	font-weight : bolder;
+}
+ 
+nav ul a:hover { 
+	color : #152736;
+	font-weight : bolder;
+}
+
+
+/**/
+/* Styles des sections */	
+section {
+	background-color : white;
+	padding-bottom: 10px;
+}
+
+
+/**/
+/* Styles du pied de page */	
+
+
+#objet{
+	text-align: left;
+}
+
+#noLine {
+	border: hidden;
+	float: left;
+}
+
+
+
+table {
+    border-collapse: collapse;
+	margin: auto;
+}
+
+
+
+th {
+	background-color : grey;
+}
+
+td, th {/* Mettre une bordure sur les td ET les th */
+
+    border: 2px solid black;
+}
+
+footer {
+	border-top : 2px solid #763229;
+	font-size : x-small;
+	bottom: 0;
+	max-width: 1090px;
+	height: 68px;	
+}

@@ -1,0 +1,1 @@
+<a href="index.php" title="Aller à l'accueil"><img class="left" src="../img/logo.jpg" /></a>
