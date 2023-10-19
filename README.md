@@ -3,3 +3,4 @@ Le code source d'une application WEB pour une mairie permettant de solliciter un
 
 A noter l'utilisation d'une solution AJAX dans la partie utilisateur "user" sur la page "formNewDemande" qui permet un affichage en temps réel en fonction du choix de l'utilisateur.
 
+il manque le sql svp
